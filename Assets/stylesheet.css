@@ -1,3 +1,146 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    background: gray;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    margin: 0%;
+    text-align: center;
+}
+h6, p{
+    text-align: left;
+    font-family: 'Crimson Text', serif;
+}
+h1{
+    font-size: 2.0rem;
+}
+h1:hover, h2:hover, p:hover, h6:hover, li:hover{
+    color: black;
+}
+nav{
+    width: auto;
+    height: 180px;
+    position: relative;
+    background: #313131;
+}
+nav ul{
+    margin: 0%;
+}
+nav li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    margin-top: 90px;
+}
+[class*="cover-"]{
+    float: left;
+    width: 50%;
+    height: 725px;
+}
+.cover-section-1{
+    background: #696767;
+}
+.cover-section-2{
+    background: #424040;
+}
+.cover-section-3{
+    background: #424040;
+}
+.cover-section-4{
+    background: #696767;
+}
+[class*="article-"]{
+    float: left;
+    height: 548px;
+    width: 33.333%
+}
+.article-1{
+    background: #807b7b;
+}
+.article-2{
+    background: #5c5959;
+}
+.article-3{
+    background: #696767;
+}
+.ads{
+    clear: left;
+    background: azure;
+    height: 680px;
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.big-ad{
+    float: left;
+    height: 660px;
+    width: 75%;
+    background: #2c2b2b;
+    margin-left: 40px;
+}
+.small-ad {
+    float: left;
+    height: 187px;
+    width: 15%;
+    padding: 0 5%;
+    padding-top:20px;
+   margin-left: 50px;
+   margin-top: 20px;
+    background: #807b7b;
+}
+.conference{
+    height: 1000px;
+    background: #2c2b2b;
+    clear: left;
+}
+.person-oftheweek{
+    height: 330px;
+}
+.photo{
+    float: left;
+    height: inherit;
+    width: 25%;
+    background: #424040;
+}
+.person-description{
+    float: left;
+    height: inherit;
+    width: 75%;
+    background: #494646;
+}
+[class*="community-"]{
+    float: left;
+    height: 230px;
+    width: 50%;
+}
+.community-2, .community-3, .community-6 {
+    background: #313131;
+}
+.community-1, .community-4, .community-5 {
+    background: #4b4848;
+} 
+.book{
+    clear: left;
+    height: 420px;
+    background: #2c2b2b;
+    margin: 10px 0;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: left;
+    background: #2c2b2b;
+    width: 100%;
+    height: 100vh;
+}
+footer li{
+    float: left;
+    margin-left: 50px;
+    font-family: 'Crimson Text', serif;
 }
