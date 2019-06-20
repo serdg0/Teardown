@@ -17,4 +17,4 @@ This have been done by:
 * [Sergio Diaz](https://github.com/serdg0) 
 
 ### The website
-[Click](https://rawcdn.githack.com/serdg0/Teardown/7b08b89cae8c7f61b54965d8d858d8b7f3dcc344/index.html) to view website
+[Click](https://serdg0.github.io/Teardown/) to view website
