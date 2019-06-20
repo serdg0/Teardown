@@ -250,6 +250,9 @@ nav ul li span{
     width: 75%;
     background: #494646;
 }
+.person-description h2, .person-description p{
+    margin-left: 20px;
+}
 [class*="community-"]{
     float: left;
     height: 230px;
