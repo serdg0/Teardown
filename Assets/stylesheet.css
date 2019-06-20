@@ -76,10 +76,10 @@ nav ul li span{
 .main-author{
     font-size: 1.8rem;
 }
-.main-author i{
+.main-author i, .photo i, [class*="community-"] i{
     transform: rotate(-20deg);
 }
-.main-author i:hover{
+.main-author i:hover, .photo i:hover, [class*="community-"] i:hover{
     transform: none;
 }
 .comment{
@@ -136,11 +136,42 @@ nav ul li span{
     margin-bottom: 40px;
 }
 .big-ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: left;
     height: 660px;
     width: 75%;
     background: #2c2b2b;
     margin-left: 40px;
+}
+.big-ad div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.big-ad img{
+    width: 50%;
+    height: 290px;
+}
+.big-ad h1{
+    margin-top: 0;
+    font-size: 3.7rem;
+    text-decoration: underline;
+}
+.big-ad a{
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+.big-ad p{
+    margin-top: 0;
+    font-size: 1.5rem;
+    padding: 0 80px;
+    font-family: 'Crimson Text', serif;
 }
 .small-ad {
     float: left;
@@ -151,22 +182,69 @@ nav ul li span{
    margin-left: 50px;
    margin-top: 20px;
     background: #807b7b;
+    text-align: center;
 }
 .conference{
-    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
     background: #2c2b2b;
     clear: left;
 }
+.conference span{
+    font-family: 'Crimson Text', serif;
+}
+.conference div{
+    margin: 10px 0;
+    justify-content: inherit;
+    display: inherit;
+    align-items: inherit;
+    flex-direction: inherit;
+}
+.conference h1{
+    margin-top: 0;
+    text-decoration: underline;
+    font-size: 3.7rem;
+}
+.conference a{
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.conference p{
+    font-size: 1.3rem;
+    padding: 0 120px;
+    font-family: 'Crimson Text', serif;
+}
 .person-oftheweek{
+    font-family: 'Crimson Text', serif;
     height: 330px;
+}
+.person-oftheweek h2{
+    letter-spacing: 2px;
+}
+.person-oftheweek p{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 }
 .photo{
     float: left;
     height: inherit;
     width: 25%;
     background: #424040;
+    font-size: 10.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .person-description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     float: left;
     height: inherit;
     width: 75%;
@@ -176,7 +254,26 @@ nav ul li span{
     float: left;
     height: 230px;
     width: 50%;
+    display: flex;
+    align-items: center;
 }
+[class*="community-"] p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: 'Crimson Text', serif;
+}
+[class*="community-"] span{
+    margin-top: 26.560px;
+}
+[class*="community-"] h1{
+    margin-top: 0;
+}
+[class*="community-"] i{
+    margin-left: 20px;
+    font-size: 5rem;
+    padding: 0 20px;
+}
+
 .community-2, .community-3, .community-6 {
     background: #313131;
 }
@@ -189,6 +286,33 @@ nav ul li span{
     background: #2c2b2b;
     margin: 10px 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.book p{
+    padding-right: 25%;
+}
+.book a{
+    border: 2px solid white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.book div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+}
+.book h1{
+    margin-top: 0;
+    text-decoration: underline;
+    font-size: 3.7rem;
+    margin-bottom: 0;
 }
 footer{
     display: flex;
