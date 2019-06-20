@@ -316,15 +316,33 @@ nav ul li span{
 }
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
     clear: left;
     background: #2c2b2b;
     width: 100%;
     height: 100vh;
 }
+footer ul{
+    margin: 0% 30%;
+    text-align: center;
+}
 footer li{
-    float: left;
-    margin-left: 50px;
+    display: inline-block;
+    padding: 5px 15px;
     font-family: 'Crimson Text', serif;
+    font-size: 1.4rem;
+}
+footer div{
+    text-align: center;
+}
+ul a{
+    color: white;
+    font-size: 1rem;
+}
+.head-title{
+    letter-spacing: 2px;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
 }
